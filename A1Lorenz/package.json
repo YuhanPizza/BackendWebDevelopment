@@ -1,0 +1,16 @@
+{
+  "name": "a1lorenz",
+  "version": "1.0.0",
+  "description": "Web Assignment #1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lorenz Alvin Tubo",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "uuid": "^9.0.0"
+  }
+}
