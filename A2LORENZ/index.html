@@ -1,0 +1,60 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/style.css" />
+        <title>Homepage</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-header">
+                    <h4>Assignment 2</h4>
+                </div>
+                <div class="nav-menu">
+                    <ul class="nav-options">
+                        <li><a href='/'>Home</a></li>
+                        <li><a href='/admin'>Admin</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <h1>Pay For Parking</h1>
+        <div class="container-form">
+            <span>All vehicles must pay for parking.</span><br />
+            <span>Complying to this will prevent tickets and towing of vehicles.</span>
+            <div class="payment-form">
+                <form class="form" action="/submit" method="POST">
+                    <label for="park">Choose a Parking Lot</label>
+                    <select id="park" name="park" required>
+                        <option disabled selected value>Select a parking lot</option>
+                        <option value="3.00">Parking Lot Underground ($3.00 per hr)</option>
+                        <option value="4.00">Parking Lot Regular($4.00 per hr)</option>
+                        <option value="5.00">Rooftop Parking ($5.00 per hr)</option>
+                    </select>
+                    <br>
+                    <label for="Hours">Hours</label>
+                    <input
+                        id="inputHours"
+                        name="hours"
+                        type="number"
+                        min="1"
+                        placeholder="1"
+                        required
+                    />
+                    <br>
+                    <label for="License">License Plate</label>
+                    <input
+                        id="inputLicense"
+                        name="license"
+                        type="text"
+                        placeholder="ABCD1234"
+                        required
+                    />
+                    <button type="submit" style = "font-family:'Press Start 2P', cursive;">Submit</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

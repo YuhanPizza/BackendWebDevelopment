@@ -1,0 +1,47 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/style.css" />
+        <title>Admin</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-header">
+                    <h4>Assignment 2</h4>
+                </div>
+                <div class="nav-menu">
+                    <ul class="nav-options">
+                        <li><a href='/'>Home</a></li>
+                        <li><a href='/admin'>Admin</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-form">
+        <span>Enter your administration credentials.</span><br />
+        <div class="admin-form">
+            <form class="form" action="/validate" method="POST">
+                <label for="user">Username:</label>
+                <input
+                    id="user"
+                    name="user"
+                    type="text"
+                    placeholder="Username"
+                    required
+                />
+                <br>
+                <label for="pWord">Password:</label>
+                <input
+                    id="pWord"
+                    name="pWord"
+                    type="password"
+                    placeholder="*****"
+                    required
+                />
+                <button type="submit">Login</button>
+            </form>
+        </div></body>
+</html>

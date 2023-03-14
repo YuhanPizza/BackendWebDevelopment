@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+body {
+    background-color: red;
+    background-image: url("/giphy.gif");
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+}
+.form input,
+#park {
+    border: none;
+    border-radius: 3%;
+    height: 30px;
+    padding-left: 10px;
+}
+
+h4,
+h3,
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-align: center;
+}
+span,
+.form label {
+    font-family: 'Press Start 2P', cursive;
+    color: red;
+}
+.nav-container,
+.nav-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.nav-options {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-options li {
+    padding: 1rem;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black;
+    border-radius: 1.5%;
+    opacity: 0.8;
+}
+.container-form span {
+    margin-top: 3%;
+}
+
+.payment-form form,
+.admin-form form {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.container-form span {
+    text-align: center;
+}
+.payment-form form button,
+.admin-form form button {
+    width: max-content;
+    margin-top: 8%;
+    padding: 1em 1em;
+    border: none;
+    border-radius: 0.5em;
+    box-shadow: 0 0 2px 1px rgba(234, 11, 11, 0.133);
+    align-self: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5em;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    text-decoration: none;
+}
